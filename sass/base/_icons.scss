@@ -1,0 +1,36 @@
+.fa-globe-europe {
+  @extend %fa-icon;
+  @extend .fas;
+
+  &:before {
+    content: fa-content($fa-var-globe-europe);
+  }
+}
+
+.fa-compass {
+  @extend %fa-icon;
+  @extend .fas;
+
+  &:before {
+    content: fa-content($fa-var-compass);
+  }
+}  
+
+.fa-map {
+  @extend %fa-icon;
+  @extend .far;
+
+  &:before {
+    content: fa-content($fa-var-map);
+  }
+} 
+
+.fa-heart {
+  @extend %fa-icon;
+  @extend .far;
+
+  &:before {
+    content: fa-content($fa-var-heart);
+  }
+} 
+  
